@@ -1,4 +1,4 @@
-/** Main.java
+/* Main.java
  * @author Katherine Bellman , studentID: 100325825
  * @version 0.0.1
  *
@@ -8,9 +8,20 @@
  */
 package ca.durhamcollege;
 
-public class Main {
+import java.util.Scanner;
 
-    public static void main(String[] args) {
-	// write your code here
+public class Main
+{
+
+    public static void main(String[] args)
+    {
+        String name = null;
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Please enter your name: ");
+        name = keyboard.nextLine();
+        System.out.printf("You entered: %s", name);
+
+
     }
 }
